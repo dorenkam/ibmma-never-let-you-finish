@@ -37,7 +37,7 @@ app.post('*', function immaLetYouFinish (req, res) {
 
   // there's a 2.5% chance of interrupting the conversation.
   var probability = Math.random();
-  if (probability <= 0.025) {
+  if (probability <= 1.0) {
 
     // kanye west's response
     var botResponse = {
@@ -75,5 +75,5 @@ app.listen(port, function () {
 
 // Keep app alive on heroku
 setInterval(function(){
-  http.get('http://ibmma-let-you-finish-lunch.herokuapp.com', console.log.bind(null, 'Keeping Kanye Alive.'));
+  http.get('http://ibmma-never-let-you-finish.herokuapp.com', console.log.bind(null, 'Keeping Kanye Alive.'));
 }, 60 * 1000);
