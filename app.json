@@ -1,5 +1,5 @@
 {
-  "name": "imma-let-you-finish",
+  "name": "ibmma-never-let-you-finish",
   "description": "Celebrate over five years of Kanye West hacking the stage with this Slack Bot with Kanye randomly interrupting your conversations.",
   "repository": "https://github.com/Sparragus/imma-let-you-finish",
   "logo": "http://i.imgur.com/GSEfJzI.jpg",
@@ -7,7 +7,7 @@
   "env": {
     "OUTGOING_WEBHOOK_TOKEN": {
       "description": "Slack gives you this key to verify if the request came from Slack. You can find it on the Outgoing Webhook integration.",
-      "value": "",
+      "value": "psV8g2r7QwsJdq1zOA55gqES",
       "required": false
     }
   }
